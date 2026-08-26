@@ -792,6 +792,6 @@ app.listen(5000, () => {
   console.log('🔌 API: http://localhost:5000/api/olts');
   console.log('\n📋 Configured OLTs:');
   for (let key in DEFAULT_OLTS) {
-    console.log(\`  ✓ \${DEFAULT_OLTS[key].name} (\${DEFAULT_OLTS[key].type})\`);
+    console.log(`  ✓ ${DEFAULT_OLTS[key].name} (${DEFAULT_OLTS[key].type})`);
   }
 });
